@@ -9,7 +9,7 @@ Full-cycle TDD workflow from brainstorming to commit:
 - **Brainstorm** — clarify vague requirements before writing code
 - **Test-first** — write tests, get user approval, verify RED
 - **Minimal implementation** — smallest code to make tests pass
-- **Subagent code review** — fresh eyes catch what you missed
+- **Code review with `ocr`** — integrates [Alibaba Open Code Review](https://github.com/alibaba/open-code-review) CLI for AI-powered code review
 - **Acceptance checklist** — structured verification with "Why/How" pattern
 - **Auto commit** — checkpoint after every GREEN phase
 

@@ -81,9 +81,19 @@ Smallest code to make the test pass. Nothing extra.
 
 Fresh subagent, run tests. MUST pass.
 
-### Step 5: Subagent CODE REVIEW
+### Step 5: Code Review with `ocr` (Alibaba Open Code Review)
 
-Different subagent reviews: bugs, edge cases, code quality, simpler approaches.
+Run Alibaba's `ocr` CLI tool for AI-powered code review:
+
+```bash
+ocr review --diff          # Review staged/unstaged changes
+ocr review --commit HEAD   # Review latest commit
+ocr scan                   # Full project scan
+```
+
+Review must cover: bugs, edge cases, code quality, security, simpler approaches.
+
+If `ocr` is unavailable, fall back to a fresh subagent review.
 
 ### Step 6: User decides
 
