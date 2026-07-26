@@ -95,6 +95,8 @@ Review must cover: bugs, edge cases, code quality, security, simpler approaches.
 
 If `ocr` is unavailable, fall back to a fresh subagent review.
 
+See `AGENTS.md` → CLI 工具 → `ocr` 代码审查 for full configuration and usage guide.
+
 ### Step 6: User decides
 
 Present: test + code + review findings.
