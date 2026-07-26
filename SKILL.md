@@ -83,7 +83,7 @@ Fresh subagent, run tests. MUST pass.
 
 ### Step 5: Code Review with `ocr` (Alibaba Open Code Review)
 
-Run Alibaba's `ocr` CLI tool for AI-powered code review:
+Run the [Alibaba Open Code Review](https://github.com/alibaba/open-code-review) CLI (`ocr`) for AI-powered code review:
 
 ```bash
 ocr review --diff          # Review staged/unstaged changes
