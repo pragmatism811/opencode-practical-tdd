@@ -1,0 +1,14 @@
+# OpenCode configuration files (may contain API keys)
+opencode.jsonc
+.env
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
